@@ -1,20 +1,29 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 ul {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
+    padding: 16px;
+    justify-content:space-between;
     align-items: center;
-    padding: 20px;
-  text-align: center;
 }
 
 a {
-    color: red;
+    color:red;
     text-decoration: none;
-    font-size: 50px;
-    
+}
+
+nav a:hover {
+    color: blue;
 }
 
 body {
-    background-color: black;
+    background-image: url(https://media.discordapp.net/attachments/1263557609739387023/1333958068299632782/gglue109.png?ex=679ac8c3&is=67997743&hm=1da2d16ed2f8980397825396a5d835b581f55847947fd7af8173f7272487e682&=&format=webp&quality=lossless&width=798&height=449);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
-
